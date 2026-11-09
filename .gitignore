@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Local model artifacts and experiment runs
+artifacts/
+mlruns/
+*.joblib
+*.pkl
+
+# Local databases and demo/input/export files
+data/
+*.db
+*.sqlite3
+*.csv
+*.parquet
+*.xlsx
+predictions.csv
+prediction-history.csv
+monitoring-report.json
+label_template.csv
+
+# Local secrets and environment settings
+.streamlit/secrets.toml
+.env
