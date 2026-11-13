@@ -2,6 +2,8 @@
 
 A runnable, local-first portfolio project showing an end-to-end lightweight ML lifecycle: deterministic training, versioned model artifacts, a governed registry, batch scoring, simulated production traffic, operational and data-drift monitoring, optional labels, threshold alerts, an audit trail, and report export. It is designed to run on Windows 11 with an 8 GB RAM laptop CPU; no GPU, Docker, credentials, cloud service, or internet connection is needed after dependencies are installed.
 
+**Live app:** https://model-operations-monitoring.streamlit.app/
+
 ## What is implemented
 
 - **Training:** reproducible scikit-learn `StandardScaler` + `LogisticRegression` pipeline on deterministic synthetic binary classification data. `--seed` makes the data split and fit reproducible. Each run gets a unique version and a saved `joblib` artifact.
